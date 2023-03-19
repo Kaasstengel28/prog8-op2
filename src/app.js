@@ -11,7 +11,7 @@ function learnDown() {
     log.innerText = `Learning down`
 
 }
-function learnOk() {
+function learnOklahoma() {
     machine.learn(webcamdata, 'Oklahoma')
     log.innerText = `Learning Oklahoma`
 }

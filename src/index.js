@@ -8,17 +8,16 @@ const VIDEO_HEIGHT = 405
 //Buttons
 const addUp = document.querySelector("#up");
 const addDown = document.querySelector("#down");
-const addOk = document.querySelector("#oklahoma");
+const addOklahoma = document.querySelector("#oklahoma");
 const classify = document.querySelector("#classify");
 // const train = document.querySelector("#train");
 
 //Event Listeners
 addUp.addEventListener("click", () => learnUp());
 addDown.addEventListener("click", () => learnDown());
-addOk.addEventListener("click", () => learnOk());
+addOklahoma.addEventListener("click", () => learnOklahoma());
 
 classify.addEventListener("click", () =>  predict() && console.log("predicting"));
-// train.addEventListener("click", () =>  learnL() && console.log("learning L"));
 
 let webcamdata = []
 
