@@ -8,7 +8,7 @@ const VIDEO_HEIGHT = 405
 //Buttons
 const addUp = document.querySelector("#up");
 const addDown = document.querySelector("#down");
-const addOk = document.querySelector("#ok");
+const addOk = document.querySelector("#oklahoma");
 const classify = document.querySelector("#classify");
 // const train = document.querySelector("#train");
 
