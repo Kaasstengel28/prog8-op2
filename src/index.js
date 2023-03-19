@@ -6,9 +6,9 @@ const VIDEO_WIDTH = 720
 const VIDEO_HEIGHT = 405
 
 //Buttons
-const addUp = document.querySelector("#up");
-const addDown = document.querySelector("#down");
-const addOklahoma = document.querySelector("#oklahoma");
+const addUp = document.querySelector("#Up");
+const addDown = document.querySelector("#Down");
+const addOklahoma = document.querySelector("#Oklahoma");
 const classify = document.querySelector("#classify");
 // const train = document.querySelector("#train");
 
